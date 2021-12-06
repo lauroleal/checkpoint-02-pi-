@@ -1,6 +1,6 @@
 ## Checkpoint 03 - Programação Imperativa - Turma 10
 
-### ORIENTÇÃO PARA A EXECUÇÃO:
+### ORIENTAÇÃO PARA A EXECUÇÃO:
 
 - Executar o comando `node estudantes.js` no terminal no arquivo estudantes.js!
 
