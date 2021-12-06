@@ -50,19 +50,19 @@ console.log('|--------------------- Foram adcionados 7 alunos ------------------
 console.log('');
 
 const aluno1 = new Aluno('Lauro', 2, [10,8,9,6]);
-aluno1.adcionarAluno()
+aluno1.adcionarAluno();
 const aluno2 = new Aluno('Michele', 5, [8,9,10,7]);
-aluno2.adcionarAluno()
+aluno2.adcionarAluno();
 const aluno3 = new Aluno('Igor', 6, [10,5,7,9]);
-aluno3.adcionarAluno()
+aluno3.adcionarAluno();
 const aluno4 = new Aluno('Rodrigo', 3, [10,7,10,5]);
-aluno4.adcionarAluno()
+aluno4.adcionarAluno();
 const aluno5 = new Aluno('Emanuel', 2, [9,8,10,5]);
-aluno5.adcionarAluno()
+aluno5.adcionarAluno();
 const aluno6 = new Aluno('Camila', 0, [10,8,10,8]);
-aluno6.adcionarAluno()
+aluno6.adcionarAluno();
 const aluno7 = new Aluno('Isabela', 1, [10,9,8,6]);
-aluno7.adcionarAluno()
+aluno7.adcionarAluno();
 
 let listaAlunos = [];
 listaAlunos.push(aluno1, aluno2,aluno3, aluno4,aluno5, aluno6,aluno7);
@@ -150,11 +150,11 @@ for(let i=0;i <lista.tamArray;i++){
     listaAlunos.pop(i);
  }
 
- console.log(' ⬇️ Resultado ⬇️')
- console.log()
- console.log(listaAlunos)
- console.log()
- console.log(' ⬆️ Resultado ⬆️ ')
+ console.log(' ⬇️ Resultado ⬇️');
+ console.log();
+ console.log(listaAlunos);
+ console.log();
+ console.log(' ⬆️ Resultado ⬆️ ');
 
  console.log('================================================================================');
  console.log('|--------------- Preenchendo o array com o conteudo do array temp -------------|');
@@ -163,9 +163,10 @@ for(let i=0;i <lista.tamArray;i++){
  // colocando os itens do Array temporario na lista de estudantes
  for(let i=0;i <lista.tamArray;i++){
     listaAlunos[i] = temp[i];
+    
    
  }
- console.log(listaAlunos)
+ console.log(listaAlunos);
 
  console.log('================================================================================');
  console.log('|-------------------------- Testando os métodos -------------------------------|');
