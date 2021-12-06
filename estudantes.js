@@ -31,11 +31,11 @@ class Aluno {
      /*Também terá um método chamado faltas, que simplesmente aumenta o número 
      de faltas em 1.*/
 
-    faltas(){
+     faltas(){
         
-            const falta = this.faltasAluno = this.faltasAluno + 1;
-            return `O aluno(a) ${this.nomeAluno} agora tem ${falta} faltas!`;        
-    }
+        const falta = this.faltasAluno = this.faltasAluno + 1;
+        return `O aluno(a) ${this.nomeAluno} agora tem ${falta} faltas!`;        
+}
 }
 
 console.log('');
@@ -171,7 +171,8 @@ for(let i=0;i <lista.tamArray;i++){
  console.log('|-------------------------- Testando os métodos -------------------------------|');
  console.log('================================================================================');
 
-console.log('');
+
+ console.log('');
 console.log('================================================================================');
 console.log('|----------------- Método Calcular Média ( teste com 3 alunos) ----------------|');
 console.log('================================================================================');
