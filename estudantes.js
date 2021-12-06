@@ -192,4 +192,6 @@ console.log(listaAlunos[2].faltas());
 console.log(listaAlunos[2].faltas());
 console.log(listaAlunos[5].faltas());
 console.log(listaAlunos[5].faltas());
+console.log(listaAlunos[8].faltas());
+console.log(listaAlunos[8].faltas());
 console.log('');
