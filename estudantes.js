@@ -106,9 +106,6 @@ módulo aluno.*/
 module.exports = {listaAlunos,Aluno};
 const lista = require('./curso.js');
 
-//exports.calcularMedia() = calcularMedia;
-
-
 /*Micro desafio - Passo 7
 
 Importe o módulo estudantes.js, que contém uma lista de alunos, dentro do arquivo
@@ -169,7 +166,7 @@ for(let i=0;i <lista.tamArray;i++){
  console.log(listaAlunos);
 
  console.log('================================================================================');
- console.log('|-------------------------- Testando os métodos -------------------------------|');
+ console.log('|------------ Testando os métodos dos processos anteriores --------------------|');
  console.log('================================================================================');
 
 
@@ -196,3 +193,23 @@ console.log(listaAlunos[5].faltas());
 console.log(listaAlunos[8].faltas());
 console.log(listaAlunos[8].faltas());
 console.log('');
+
+console.log('=================================================================================');
+console.log('|----------------------- Aluno Aprovado? ---------------------------------------|');
+console.log('|--------------------------(Teste com 4 Alunos)---------------------------------|');
+console.log('|-------------(Se aluno não existir não retornar nada)--------------------------|');
+console.log('=================================================================================');
+console.log('');
+
+lista.curso.aprovaAluno('Lauro');
+lista.curso.aprovaAluno('Bruno');
+lista.curso.aprovaAluno('Rafael');
+lista.curso.aprovaAluno('William');
+
+console.log('');
+lista.curso.alunoAprovados();
+
+console.log('');
+console.log('=================================================================================');
+console.log('|----------------------------🥂 BOAS FESTAS 🥂---------------------------------|');
+console.log('=================================================================================');

@@ -11,7 +11,7 @@ estudantes (um array composto pelos alunos criados no passo 1).*/
 let curso ={
     nomeDoCurso: 'Certified Tech Developer',
     notaAprovacao: 7,
-    faltasMaximas: 7,
+    faltasMaximas: 10,
     listaDeEstudantes: [aluno.listaAlunos],
 
     /*Crie o método que permite adicionar alunos à lista do curso, ou seja, quando
